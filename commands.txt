@@ -1,0 +1,10 @@
+touch .gitignore
+git init
+git add .
+git commit -m "initial commit"
+git status
+git remote add origin git@github.com:khushalchaudhari/DanceWebSite.git
+ssh-keygen -t rsa -b 4096 -C "khushalchaudhari23@gmail.com"
+tail or cat /c/Users/khush/.ssh/id_rsa.pub
+git remote add origin <ssh url.git>
+git push origin master
