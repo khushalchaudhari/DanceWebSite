@@ -1,0 +1,42 @@
+extends base.pug
+
+block script
+    script(src="/static/index.js")
+
+block style
+   style
+      include ../static/style.css    
+
+block content
+    nav#navbar
+      ul
+        div.logo
+          img(src="/static/img/logo.png")
+          | KGA
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/") Class info]
+        li #[a(href="/") Contact info]
+
+    section#introSection
+      div Welcome To khushals academy
+      div.small Dance on your HeartBeat
+
+    section#missionSection
+      h2 Our Mission  
+      div.card 
+          h1 this is Para
+           p p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae delectus eaque, ducimus reeaw fabkfv akjbv 
+          //- div.cardbox
+          //-   div.cardimg 
+          //-     img(src="/static/img/1.png")       
+      div.card 
+          h1 this is Para
+           p p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae delectus eaque, ducimus reeaw fabkfv akjbv 
+      div.card 
+          h1 this is Para
+           p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae delectus eaque, ducimus reeaw fabkfv akjbv 
+
+    section#sponcerSection
+      h2 Our Sponcers      
